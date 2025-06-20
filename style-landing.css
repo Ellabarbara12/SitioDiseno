@@ -1,0 +1,42 @@
+:root {
+    --color-primary: #ff5500;
+    --color-secondary: #ff925b;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: var(--color-secondary);
+    color: white;
+}
+
+a {
+    border-radius: 50px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 100px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #ff7e00;
+}
+
+#landing-table {
+    width: 100%
+}
+
+#landing-row-thin {
+    height: 100px
+}
+
+#landing-row-thick {
+    height: 200px
+}
+
+.landing-image-cell {
+    width: 50%;
+    text-align: end;
+}
